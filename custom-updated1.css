@@ -8,6 +8,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 }
+
+.search-hgt{ height:35px;  margin-top: 6px;}
 .dashboard-header {
 padding:5px 0px;	
 margin-top: 50px;
@@ -20,6 +22,9 @@ margin-top: 50px;
 .dashboard-side-menu a:visited{color:#002D77; text-decoration:none; text-align:center;}
 .dashboard-side-menu a:focus{color:#002D77; text-decoration:none;text-align:center;}
 .dashboard-box{ border:1px solid #CCC; padding:10px; min-height:200px;}
+.search-box{ border:1px solid #CCC; padding:10px; }
+.search-result-box{ border-bottom:1px solid #ededed; padding:10px; float:left;}
+.search-result-box:hover{ border-bottom:1px solid #ededed; padding:10px; background-color: #f4f4f4;  }
 .business-header {
 min-height: 123px;
 background-color:#ccc;
@@ -27,7 +32,7 @@ background-color:#ccc;
 -moz-background-size: cover;
 background-size: cover;
 -o-background-size: cover;
-background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/2.jpg");
+background: url("../images/2.jpg");
 margin-top: 50px;
 }
 .business-header-report {
@@ -37,7 +42,7 @@ background-color:#ccc;
 -moz-background-size: cover;
 background-size: cover;
 -o-background-size: cover;
-background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/1.jpg");
+background: url("../images/1.jpg");
 margin-top: 50px;
 }
 .hierarchy-header {
@@ -47,7 +52,7 @@ background-color:#ccc;
 -moz-background-size: cover;
 background-size: cover;
 -o-background-size: cover;
-background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/3.jpg");
+background: url("../images/3.jpg");
 margin-top: 50px;
 }
 
@@ -58,7 +63,7 @@ height: 100%;
 background-color:#002778;
 }
 .logo {
-background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/logo_hdfcbank.gif");
+background: url("../images/logo_hdfcbank.gif");
 padding: 0px;
 width: 220px;
 height: 35px;
@@ -211,7 +216,7 @@ float: none;
 margin: 0 auto;
 }
 .main-bg-img{
-  background-image: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/bg.png");
+  background-image: url("../images/bg.png");
   background-size:cover;
  margin-top: 50px;
 }
@@ -600,7 +605,7 @@ margin-top:70px;
 .right-pan{
 height: 130px;
     background-color: #99354C;
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/people-bg.png");
+    background: url("../images/people-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -632,7 +637,7 @@ height: 130px;
 }
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 2px;
     background-size: cover;
@@ -640,14 +645,14 @@ height: 130px;
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 13px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 13px;
     background-size: cover;
@@ -673,7 +678,7 @@ height: 130px;
 }
 .right-pan{
     background-color: #99354C;
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/people-bg.png");
+    background: url("../images/people-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -705,7 +710,7 @@ height: 130px;
   }
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 2px;
     background-size: cover;
@@ -713,14 +718,14 @@ height: 130px;
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 14px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 14px;
     background-size: cover;
@@ -747,7 +752,7 @@ height: 130px;
 }
 .right-pan{
     background-color: #99354C;
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/people-bg.png");
+    background: url("../images/people-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -776,7 +781,7 @@ height: 130px;
   
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 2px;
     background-size: cover;
@@ -784,14 +789,14 @@ height: 130px;
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
@@ -823,7 +828,7 @@ height: 130px;
 }
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 2px;
     background-size: cover;
@@ -831,14 +836,14 @@ height: 130px;
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
@@ -858,7 +863,7 @@ iPad 3
 }
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 2px;
     background-size: cover;
@@ -866,14 +871,14 @@ iPad 3
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
@@ -911,7 +916,7 @@ iPad 3
 }
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 3px;
     background-size: cover;
@@ -919,14 +924,14 @@ iPad 3
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
@@ -952,7 +957,7 @@ iPad 3
 .right-pan{
 	height: 130px;
     background-color: #99354C;
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/people-bg.png");
+    background: url("../images/people-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 4px;
@@ -987,7 +992,7 @@ iPad 3
   }
 .card1{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card1.png");
+    background: url("../images/card1.png");
     background-repeat: no-repeat;
     margin-left: 2px;
     background-size: cover;
@@ -995,14 +1000,14 @@ iPad 3
 }
 .card2{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card2.png");
+    background: url("../images/card2.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
 }
 .card3{
     min-height: 221px; 
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/card3.png");
+    background: url("../images/card3.png");
     background-repeat: no-repeat;
     margin-left: 19px;
     background-size: cover;
@@ -1035,7 +1040,7 @@ iPad 3
 .right-pan{
 height: 130px;
     background-color: #99354C;
-    background: url("https://rawcdn.githack.com/radumpala/isg/2307422cfb6a29fc52e73a514a38cc6624056d5c/people-bg.png");
+    background: url("../images/people-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 10px;
     margin-left: 20px;
